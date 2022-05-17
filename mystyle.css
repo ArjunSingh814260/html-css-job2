@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 @font-face {
@@ -44,6 +45,7 @@ header {
   display: flex;
   gap: 10px;
   font-size: 16px;
+  font-family: monospace;
   color: white;
 }
 
@@ -53,19 +55,19 @@ header {
   border: none;
   width: 60px;
   font-size: 16px;
-  font-family: fa-solid;
+  font-family: monospace;
 }
 
 .right-header ul {
   display: flex;
   list-style: none;
   gap: 20px;
-  font-size: 18px;
-  color: white;
-  font-family: brands;
-  font-size: 16px;
-}
 
+  color: white;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 14px;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +77,6 @@ nav {
 }
 
 nav h3 {
-  color: #000;
   font-size: 24px;
   display: inline;
 }
@@ -124,7 +125,7 @@ nav ul {
 nav ul li a {
   color: #000;
   text-decoration: none;
-  font-family: brands;
+  font-family: monospace;
 }
 
 .nav-right-box {
@@ -227,11 +228,12 @@ nav ul li a {
 }
 
 .nav-right-box button {
-  background-color: #1d5dc5;
+  background-color: hsl(217, 98%, 62%);
   border: none;
-  border-radius: 10px;
-  height: 25px;
+  border-radius: 37px;
+  height: 40px;
   width: 100px;
+  font-family: monospace;
 }
 
 .nav-right-box button a {
