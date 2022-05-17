@@ -270,6 +270,10 @@ nav ul li a {
   color: gray;
 }
 
+.main-container nav a:hover {
+  color: red;
+}
+
 .right-box {
   display: flex;
   align-items: center;
